@@ -243,6 +243,9 @@
     <ClCompile Include="..\..\..\..\..\..\Downloads\dlib-19.17\dlib\external\zlib\zutil.c">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="processing.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\..\Downloads\dlib-19.17\dlib\external\libjpeg\jchuff.h">
@@ -330,6 +333,9 @@
       <Filter>ソース ファイル</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\..\..\Downloads\dlib-19.17\dlib\external\zlib\zutil.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="processing.hpp">
       <Filter>ソース ファイル</Filter>
     </ClInclude>
   </ItemGroup>

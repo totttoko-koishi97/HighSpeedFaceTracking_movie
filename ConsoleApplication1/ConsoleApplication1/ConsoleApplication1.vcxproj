@@ -143,6 +143,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\greee\OneDrive\ドキュメント\gitkraken\face_tracking_movie\ConsoleApplication1\ConsoleApplication1\processing;C:\Users\greee\Downloads\dlib-19.17;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -230,6 +231,7 @@
     <ClCompile Include="..\..\..\..\..\..\Downloads\dlib-19.17\dlib\external\zlib\uncompr.c" />
     <ClCompile Include="..\..\..\..\..\..\Downloads\dlib-19.17\dlib\external\zlib\zutil.c" />
     <ClCompile Include="ConsoleApplication1.cpp" />
+    <ClCompile Include="processing.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\..\Downloads\dlib-19.17\dlib\external\libjpeg\jchuff.h" />
@@ -261,6 +263,7 @@
     <ClInclude Include="..\..\..\..\..\..\Downloads\dlib-19.17\dlib\external\zlib\zconf.h" />
     <ClInclude Include="..\..\..\..\..\..\Downloads\dlib-19.17\dlib\external\zlib\zlib.h" />
     <ClInclude Include="..\..\..\..\..\..\Downloads\dlib-19.17\dlib\external\zlib\zutil.h" />
+    <ClInclude Include="processing.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\..\..\..\..\Downloads\dlib-19.17\dlib\external\libjpeg\README" />
